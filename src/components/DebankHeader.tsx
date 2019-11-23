@@ -5,8 +5,15 @@ import style from "../css/components/DebankHeader.module.css";
 import containerStyle from "../css/shared/container.module.css";
 import iDebank from "../assets/debank.svg";
 import {NavLink} from "react-router-dom";
+import useLoginScatter from "../hooks/useLoginScatter";
+import {iAccount} from "../consts/interfaces";
 
-const DebankHeader: React.FC = () => {
+type Props = {
+  accounts?: iAccount[];
+}
+
+const DebankHeader: React.FC<Props> = (props) => {
+
   return (
     <div className={[style.header, flexStyle.flexColumn].join(" ")}>
       <div className={[containerStyle.pageSubContainer, flexStyle.flexRow, style.headerInside].join(" ")}>
@@ -17,7 +24,7 @@ const DebankHeader: React.FC = () => {
           </div>
         </div>
         <div className={style.nameTag} >
-          myeosaccount  [退出]
+          {props.accounts && props.accounts.length? props.accounts[0].name: "请登录"}
         </div>
       </div>
     </div>

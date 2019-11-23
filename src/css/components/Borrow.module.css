@@ -63,6 +63,7 @@
 }
 
 .button {
+  margin-top: 20px;
   width:140px;
   height:44px;
   background:rgba(254,129,95,1);
