@@ -1,0 +1,42 @@
+.poster {
+  background:rgba(233,234,238,1);
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+}
+
+.posterImage {
+  background: url("../../assets/hero@2x.png")  no-repeat;
+  background-size: cover;
+  width: 940px;
+  height: 540px;
+}
+
+.posterImage h1 {
+  margin-top: 190px;
+  font-size:54px;
+  font-weight:bold;
+  color:rgba(246,103,61,1);
+  line-height:74px;
+}
+
+.posterImage h2 {
+  font-size:34px;
+  font-weight:600;
+  color:rgba(97,107,132,1);
+  line-height:46px;
+}
+
+.button {
+  font-size:18px;
+  font-weight:500;
+  color:rgba(246,103,61,1);
+  line-height:25px;
+  border: 2px solid rgba(246,103,61,1);
+  text-align: center;
+  margin-top: 23px;
+  width: 172px;
+  height: 48px;
+  justify-content: center;
+  cursor: pointer;
+}

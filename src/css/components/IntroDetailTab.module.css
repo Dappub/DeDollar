@@ -1,0 +1,20 @@
+.tab {
+  height: 300px;
+  width: 440px;
+  margin-bottom: 60px;
+}
+
+.tab h3 {
+  font-size:28px;
+  font-weight:600;
+  color:rgba(25,35,60,1);
+  line-height:38px;
+  margin: 80px 0 18px 40px;
+}
+
+.tab div {
+  font-size:18px;
+  color:rgba(97,107,132,1);
+  line-height:25px;
+  margin-left: 40px;
+}
