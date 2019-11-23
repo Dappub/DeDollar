@@ -6,6 +6,7 @@ import {
 import containerStyle from "./css/shared/container.module.css";
 import Intro from "./views/Intro";
 import DebankFooter from "./components/DebankFooter";
+import Issue from "./views/Issue";
 
 
 const App: React.FC = () => {
@@ -14,6 +15,9 @@ const App: React.FC = () => {
       <Switch>
         <Route exact path="/">
           <Intro />
+        </Route>
+        <Route exact path={"/issue"}>
+          <Issue />
         </Route>
       </Switch>
       <DebankFooter />

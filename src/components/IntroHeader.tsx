@@ -2,6 +2,7 @@ import React from "react";
 import style from "../css/components/IntroHeader.module.css";
 import flexStyle from "../css/shared/flex.module.css";
 import iLogo from "../assets/logosquare@2x.png";
+import {NavLink} from "react-router-dom";
 
 const IntroHeader: React.FC = () => {
   return (
@@ -14,11 +15,11 @@ const IntroHeader: React.FC = () => {
         <h2>
           BTC-backed stablecoin on EOS
         </h2>
-        <div className={[style.button, flexStyle.flexColumn].join(" ")}>
+        <NavLink to={"/issue"} className={[style.button, flexStyle.flexColumn].join(" ")}>
             <span>
               Generate DeD
             </span>
-        </div>
+        </NavLink>
       </div>
 
     </div>

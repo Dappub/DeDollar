@@ -1,0 +1,77 @@
+.assets {
+  justify-content: start;
+  width: 600px;
+  margin: 40px 0 20px 0;
+}
+
+.assets h3 {
+  font-size:16px;
+  font-weight:500;
+  color:rgba(97,107,132,1);
+  line-height:22px;
+  margin-right: 50px;
+}
+
+.assets div {
+  font-size:18px;
+  font-weight:600;
+  color:rgba(25,35,60,1);
+  line-height:25px;
+}
+
+.inputs:nth-child(2) {
+  margin: 30px 0;
+}
+
+.inputs h3 {
+  font-size:16px;
+  font-weight:500;
+  color:rgba(97,107,132,1);
+  line-height:22px;
+}
+
+.inputItem {
+  justify-content: start;
+}
+
+.inputItem span {
+  font-size:18px;
+  font-weight:600;
+  color:rgba(25,35,60,1);
+  line-height:25px;
+  margin-bottom: -15px;
+}
+
+.inputInterface {
+  width:317px;
+  height:44px;
+  background:rgba(240,243,249,1);
+  box-shadow: inset 0 1px 5px 0 rgba(0,0,0,0.08);
+  border-radius:22px;
+  margin: 12px 20px 0 0;
+}
+.inputInterface input {
+  height: 44px;
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  line-height: 27px;
+  font-weight: 700;
+  color: rgba(25,35,60,1);
+  width: 100%;
+}
+
+.button {
+  width:140px;
+  height:44px;
+  background:rgba(254,129,95,1);
+  box-shadow:0 2px 8px 0 rgba(254,129,95,0.3);
+  border-radius:24px;
+  font-size:16px;
+  font-weight:600;
+  color:rgba(255,255,255,1);
+  line-height:22px;
+  cursor: pointer;
+  justify-content: center;
+}
