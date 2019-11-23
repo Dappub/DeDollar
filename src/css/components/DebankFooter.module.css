@@ -1,0 +1,39 @@
+.footerClass {
+  margin-top: 40px;
+  background: rgba(39,38,47,1);
+}
+
+.logo {
+  margin-right: 20px;
+}
+
+.dapppubLogoWhite {
+  width: 120px;
+  opacity: 0.3;
+}
+
+.copyright {
+  margin-top: 6px;
+  font-size: 12px;
+  font-weight: 400;
+  color: rgba(255,255,255,0.3);
+}
+
+.contacts {
+  margin-top: 30px;
+  opacity: 0.6;
+}
+
+.contacts a {
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 374px) {
+  .contacts a {
+    margin-left: 10px;
+  }
+}
+
+.contacts a:first-child {
+  margin-left: 0;
+}

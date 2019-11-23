@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  font-family: "Avenir Next",PingFangSC,"Microsoft YaHei",Helvetica,Arial,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  background: rgba(236,239,246,1);
+}
+
+html {
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(139,147,167,1);
+}
